@@ -19,7 +19,7 @@ h1{
 }
 body {
    text-align: center;
-   background-image: url('clouds.jpg');
+   background-image: url('../img/clouds.jpg');
 }
 #big_wrapper{
     font-family: Tahoma;
