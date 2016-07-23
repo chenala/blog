@@ -52,7 +52,8 @@ body {
     font: 14px Tahoma;
     float:left;
     width: 620px;
-    margin: 30px; //total 680px, 380 left
+    margin: 30px;
+    /*total 680px, 380 left*/
 }
 #caption{
     text-align: right;
