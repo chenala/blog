@@ -15,27 +15,26 @@ h1{
     font:bold 35px Tahoma;
     margin-bottom: 10px;
     margin-top: 0px;
-    background-color: white;
+    color: whitesmoke;
 }
 body {
    text-align: center;
-   background-image: url('../img/clouds.jpg');
+   background-repeat: repeat-x;
+   background-image: url('../img/header_bg.png');
+   background-color: black;
 }
 #big_wrapper{
     font-family: Tahoma;
-    border: 1px solid black;
-    background:white;
     width: 960px;
-    height:900px;
     margin: 20px auto;
     text-align: left;
 }
 #top_header{
-    background:aliceblue;
+    background:rgb(150,150,170);
     padding: 10px
 }
 #top_menu{
-    background:azure;
+    background:black;
     color: white;
 }
 #top_menu li{
@@ -51,8 +50,13 @@ body {
 {
     font: 14px Tahoma;
     float:left;
-    width: 620px;
-    margin: 30px; //total 680px, 380 left
+    margin: 30px;
+    /*total 680px, 380 left*/
+}
+#blogpost{
+    border: 0.2rem solid;
+    padding: 2rem;
+    background-color: rgb(150,150,170);
 }
 #caption{
     text-align: right;
@@ -70,10 +74,12 @@ footer{
     margin: 20px;
     text-align: center;
     font: 11px Tahoma;
+    color: white;
 }
 hr{
     height: 3px;
     background-color: red;
+    border:red;
     margin-top: -12px;
 }
 img{
@@ -83,7 +89,7 @@ img{
 a{
     text-decoration: none;
 }
-a:link{color:black}
-a:hover{color:white}
-a:visited{color:black}
+a:link{color:whitesmoke}
+a:hover{color:red}
+a:visited{color:whitesmoke}
 
